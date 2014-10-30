@@ -4,9 +4,13 @@ IAF Group Project
 Group Members
 =============
 Darian Lepert
+
 Robb Sheldrick
+
 Mike Capito
+
 Josh Przybysz
+
 Price Comstock
 
 Subject
