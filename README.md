@@ -3,11 +3,11 @@ IAF Group Project
 
 Group Members
 =============
-Darian Lepert\n
-Robb Sheldrick\n
-Mike Capito\n
-Josh Przybysz\n
-Price Comstock\n
+Darian Lepert
+Robb Sheldrick
+Mike Capito
+Josh Przybysz
+Price Comstock
 
 Subject
 =======
