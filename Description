@@ -1,7 +1,6 @@
 Project Description
 ===================
-Networking.
-sniffing.
-forging packets, to subvert something...
-modifying packets.
-wireless router password cracking
+wireshark packet sniffing in wireless promiscuous mode.
+gathering information from packet captures.
+using ZAP to look the default gateway.
+wireless router password cracking.
