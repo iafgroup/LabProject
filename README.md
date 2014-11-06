@@ -3,13 +3,13 @@ IAF Group Project
 
 Group Members
 -------------
-Darian Lepert
+Darian Lepert - 402.960.8057
 
-Robb Sheldrick
+Robb Sheldrick - 402.218.8646
 
-Mike Capito
+Mike Capito - 402.276.7560
 
-Josh Przybysz
+Josh Przybysz - 402.214.8526
 
 Price Comstock
 
