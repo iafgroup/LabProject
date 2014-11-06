@@ -10,8 +10,7 @@ a couple ways to secure your wireless router
 
 part 1. We want to get unauthorized access to the wifi
 ------------------------------------------------------
-aircrack-ng
-reaver
+aircrack suite
 wireshark
 (darian + mike)
 http://null-byte.wonderhowto.com/how-to/hack-wi-fi-getting-started-with-aircrack-ng-suite-wi-fi-hacking-tools-0147893/
@@ -19,6 +18,12 @@ http://null-byte.wonderhowto.com/how-to/hack-wi-fi-getting-started-with-aircrack
 part 2. We want to gain access to the admin panel
 -------------------------------------------------
 Authorization code: YWRtaW46c3VwZXJkdXBlciFAIw==
-wireshark
-ZAP
-reaver
+given the intercepted packet can you gather the credentials?
+briefly describe methods that you would use to intercept this packet?
+-wireshark scan over wifi as somebody logs into the admin panel
+-can also brute force admin + password as base64
+
+part 3. What could you do to prevent the attacks in the first 2 sections
+------------------------------------------------------------------------
+stronger encryption wpa/wpa2
+MAC filtering
