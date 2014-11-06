@@ -4,3 +4,5 @@ wireshark packet sniffing in wireless promiscuous mode.
 gathering information from packet captures.
 using ZAP to look the default gateway.
 wireless router password cracking.
+a couple ways to secure your wireless router
+-mac filtering and static mac entries to prevent arp poisoning
