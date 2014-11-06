@@ -6,3 +6,18 @@ using ZAP to look the default gateway.
 wireless router password cracking.
 a couple ways to secure your wireless router
 -mac filtering and static mac entries to prevent arp poisoning
+
+
+part 1. We want to get unauthorized access to the wifi
+------------------------------------------------------
+aircrack-ng
+reaver
+wireshark
+(darian + mike)
+http://null-byte.wonderhowto.com/how-to/hack-wi-fi-getting-started-with-aircrack-ng-suite-wi-fi-hacking-tools-0147893/
+
+part 2. We want to gain access to the admin panel
+-------------------------------------------------
+wireshark
+ZAP
+reaver
