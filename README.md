@@ -15,15 +15,11 @@ Price Comstock
 
 Subject
 -------
-Networking and Intercepting Traffic
+Networking and Attacking a Wireless Router / Access Point
 
 Files
 -----
 Lab_Instructions
-
 Lab_Writeup
-example.py
-
 Presentation
-
 Workload report
