@@ -1,3 +1,47 @@
 Networking Lab Direcitons
----------------------------
+==========================
+
+Networking Lab Directions
+Purpose: 
+---------
+The purpose of this networking lab is to familiarize individuals with Wireshark and also to help students learn how to intercept and read packets. 
+
+Part I: Unauthorized Wi-Fi Access
+-----------------------------------
+
+
+Part II: Unauthorized Administrator Access
+--------------------------------------------
+We have intercepted a packet flowing from the router using Wireshark:
+
+GET /style_gn.css HTTP/1.1
+Proxy-Connection: keep-alive
+Authorization: Basic YWRtaW46c3VwZXJkdXBlciFAIw==
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, likeGecko) Chrome/39.0.2171.13 Safari/537.36
+DNT: 1
+Referer: http://192.168.1.1/
+Accept-Encoding: sdch
+Accept-Language: en-US,en;q=0.8
+Host: 192.168.1.1
+
+Answer the following questions:
+1.	Given the intercepted packet data, can you determine what this packet was used for?
+
+
+2.	What type of encryption was used to encrypt the credentials? How can you tell?
+
+
+3.	Briefly describe what types of methods can be used to intercept a packet like this.
+
+
+
+Part III: Reflecting
+---------------------
+This router was setup using WEP security and a fairly strong password. How come the admin credentials were still able to be gathered and decrypted?
+
+
+
+
+What can be done to increase the overall security of this router? Please give specific answers.
 
