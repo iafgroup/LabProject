@@ -12,7 +12,16 @@ Part I: Unauthorized Wi-Fi Access
 
 Part II: Unauthorized Administrator Access
 --------------------------------------------
-We have intercepted a packet flowing from the router using Wireshark:
+Step 1.
+Browse to "http://192.168.1.1"
+You will be prompted for login credentials.
+
+With wireshark running enter the following credentials:
+Username: admin
+Password: HackMe
+
+Go back to your wireshark window and locate the packet that sends the authorization information to the router.
+You should see something similiar to the following:
 
 GET /style_gn.css HTTP/1.1
 Proxy-Connection: keep-alive
@@ -25,15 +34,11 @@ Accept-Encoding: sdch
 Accept-Language: en-US,en;q=0.8
 Host: 192.168.1.1
 
-Answer the following questions:
-1.	Given the intercepted packet data, can you determine what this packet was used for?
+Using the packet you captured and the credentials you were provided, can you determine the credentials passed in the example packet from above?
 
+What are the credentials?
 
-2.	What type of encryption was used to encrypt the credentials? How can you tell?
-
-
-3.	Briefly describe what types of methods can be used to intercept a packet like this.
-
+What algorithm was used to encode the credentials?
 
 
 Part III: Reflecting
